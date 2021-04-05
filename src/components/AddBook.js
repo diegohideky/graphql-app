@@ -35,8 +35,6 @@ function AddBook(props) {
     })
   }
 
-  console.log({book})
-
   return (
     <form id="add-book" onSubmit={handleSubmit}>
       <div className="field">
